@@ -1,10 +1,22 @@
 
+/*for (var i = 0; i <= 10; i++) {
+    document.write(i);
+ }*/
+
 // // for (var i = 10; i >= 2; i--) {
 // //     if (i % 2 === 0) {
 // //         document.write(i);
 // //         document.write('<br>');
 // //     }
 // // }
+var i = 10;
+while (i >= 2){
+     if (i % 2 === 0) {
+        document.write(i);
+        document.write('<br>');
+     }
+   i--;
+}
 
 // var studentAges = [20, 23, 35, 31];
 // studentAges.push(50);
@@ -49,7 +61,7 @@
 // }
 // document.write('Number of items: ' + counter);
 
-var petro = {
+/*var petro = {
     name: 'Petro',
     age: 30,
     say: function () {
@@ -73,4 +85,4 @@ function Student (name, age) {
 var ivan = new Student('Ivan', 20);
 ivan.say();
 var ira = new Student('Ira', 26);
-ira.say();
+ira.say();*/
